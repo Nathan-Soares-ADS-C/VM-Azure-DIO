@@ -1,1 +1,4 @@
 # VM-Azure-DIO
+Aprender a criar uma máquina virtual no Azure foi uma experiência bem interessante. Primeiro, precisei entender o passo a passo no Portal do Azure, onde escolhi a opção "Criar um recurso" e depois "Máquina Virtual". Lá, configurei informações como o nome da VM, região, imagem do sistema operacional e o tamanho da máquina. Também aprendi a definir o usuário administrador, escolher o tipo de autenticação e configurar a parte de rede, como as portas que seriam liberadas.
+
+Uma parte importante foi entender os tipos de armazenamento com redundância. Vi que o LRS é o mais básico e barato, o GRS já oferece backup em outra região, o ZRS protege contra falhas no nível do datacenter e o GZRS combina redundância de zona e geográfica para cenários mais críticos. No final, depois de revisar todas as configurações, finalizei a criação da VM e percebi como o processo, apesar de ter várias etapas, se torna mais fácil depois de entender cada opção.
